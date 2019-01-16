@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Order">
+        <ListPreference
+            android:title="@string/settings_min_orderBy_title"
+            android:key="@string/settings_min_orderBy_key"
+            android:defaultValue="@string/settings_min_orderBy_default"
+            android:entries="@array/order_by"
+            android:entryValues="@array/order_by">
+        </ListPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/settings_min_number_of_stories_title">
+        <EditTextPreference
+            android:title="@string/settings_min_number_of_stories_title"
+            android:key="page-size">
+        </EditTextPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="connection_error">error while communicating with the server</string>
+    <string name="btn_refresh">Refresh</string>
+    <string name="txt_noNewsToShow">there"s no news to show.. seems the world is quiet :)
+    or you have a connection problem.
+    </string>
+    <string name="txt_noInternet">there"'s no internet connection, connect to the internet and try again</string>
+    <string name="response_key">response</string>
+    <string name="results_key">results</string>
+    <string name="id_key">id</string>
+    <string name="type_key">type</string>
+    <string name="section_name_key">sectionName</string>
+    <string name="date_key">webPublicationDate</string>
+    <string name="web_title_key">webTitle</string>
+    <string name="web_url_key">webUrl</string>
+    <string name="tags_key">tags</string>
+
+    <string name="txt_Settings">Settings</string>
+    <string name="txt_about">about</string>
+    <string name="settings_min_orderBy_title">order by</string>
+    <string name="settings_min_orderBy_key" translatable="false">order-by</string>
+    <string name="settings_min_orderBy_default" translatable="false">newest</string>
+    <string name="settings_min_page_size_key" translatable="false">page-size</string>
+    <string name="settings_min_number_of_stories_title">page Size</string>
+</resources>
+
